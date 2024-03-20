@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function oddOrEven(array) {
+        //enter code here
+        return array.reduce((x, y) => x + y, 0) % 2 === 0 ? "even" : "odd";
+      }
+
+      console.log(oddOrEven([1, 2, 3])); // => even
+      console.log(oddOrEven([])); // => even
+      console.log(oddOrEven([1, 1, 2, 3])); // => odd
+    </script>
+  </body>
+</html>
