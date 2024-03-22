@@ -1,1 +1,1 @@
-# code-wars
+# Codewars Pracitce
