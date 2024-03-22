@@ -9,7 +9,7 @@ Note :
 
 function returnNegative($num)
 {
-  return -abs($num);
+  return -abs($num); // => abs is a function that make number become absolute (no minus number)
 }
 
 echo returnNegative(4);
